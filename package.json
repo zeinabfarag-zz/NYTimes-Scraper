@@ -1,5 +1,5 @@
 {
-  "name": "hw",
+  "name": "nytimes-scraper",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,14 +7,27 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeinabfarag/NYTimes-Scraper.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeinabfarag/NYTimes-Scraper/issues"
+  },
+  "homepage": "https://github.com/zeinabfarag/NYTimes-Scraper#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.3.5",
-    "path": "^0.12.7"
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.7",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "sha1": "^1.1.1"
   }
 }
