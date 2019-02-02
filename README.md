@@ -2,21 +2,24 @@
 
 ## Overview
 
-A burger logger application made with Node.js, Express, MySQL, and Handlebars.
+An article scraper app built using mongoose, node.js, and express.js
 
 ## Description
 
-This application demonstrates a simple full stack application with a front end implemented with HTML/CSS and the backend implemented with Node.js and Express. HTML templating is done with the help of Handlebars. It is built using the MVC framework.
+This project is a full-stack web app, using the Model-View-Controller design pattern. It uses Mongo as persistent storage, and Mongoose as the modeling engine or ORM.
 
-The user may enter any burger name to add it to the menu. This also adds the new burger entry into the MySQL database. The initial burger entry is added as *Burgers you can eat* on the menu and placed on the left side of the screen. The user may then eat any burger by clicking on it, which moves it into the adjacent column and updates its status accordingly in the database.
+The New York Time Scraper is an app which captures the title, summary and image of articles of The New York Times and displays it to the user. Users are able to save their preferred articles. Once the articles are saved they are also able to delete those articles and add notes to them. 
 
 ## Technologies Used
 * Node.js
 * Express.js
-* MySQL
-* jQuery
+* Mongo
+* Mongoose
+* Node Packages
+  * cheerio
+  * handlebars
 * Bootstrap
 
 ## Website
 
-https://github.com/zeinabfarag/BurgerApp
+https://mongoosescrapernytimes.herokuapp.com/
